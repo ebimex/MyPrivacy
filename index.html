@@ -1,16 +1,99 @@
-<p style="line-height: 115%;" align="center">&nbsp;</p>
-<body style="background-color: rgb(143, 202, 219);"></body>
-<p style="line-height: 115%;" align="center">&nbsp;</p>
-<p style="line-height: 115%;" align="center"><strong><span style="font-family: Liberation Serif, serif;"><span style="font-size: 6dvb">POLITYKA PRYWATNOŚCI APLIKACJI</span></span></strong></p>
-<p style="line-height: 115%;" align="center">&nbsp;</p>
-<hr />
-<p style="line-height: 115%; text-align: left;" align="center">&nbsp;</p>
-<h5 align="left"><span style="font-size: 3dvb;">Szanujemy prawo użytkownik&oacute;w aplikacji do prywatności i oświadczamy, że aplikacja nie gromadzi żadnych danych.</span></h5>
-<h5 align="left"><span style="font-size: 3dvb;">Służy jedynie do wysyłania poleceń SMS aby sterować bramami z g&oacute;ry określonym numerem GSM.</span></h5>
-<h5 align="left"><span style="font-size: 3dvb;">Nie zapisuje żadnych danych oraz nie pobiera informacji o użytkowniku.</span></h5>
-<hr />
-<p>&nbsp;</p>
-<p style="line-height: 115%;" align="left"><em><span style="font-family: Liberation Serif, serif;"><span style="font-size: large;">W razie jakichkolwiek pytań lub niejasności chętnie służymy pomocą. Skontaktuj się z nami na adres </span></span></em><a href="mailto:ebimex@onet.eu"><span style="color: #000080;"><span style="font-family: Liberation Serif, serif;"><span style="font-size: large;"><span lang="zxx"><em><u>ebimex@onet.eu</u></em></span></span></span></span></a></p>
-<p>&nbsp;</p>
-<hr />
-<p style="line-height: 115%;" align="left">&nbsp;</p>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        /* Ustawienie linków w kolumnie */
+        a {
+            display: block;
+            margin-bottom: 10px; /* Dodaj odstęp między linkami, aby były bardziej czytelne */
+        }
+
+        /* Dodane style dla tła, koloru tekstu i rozmiaru czcionki */
+        body {
+            background-color: #f0f0f0; /* Kolor tła */
+            color: #333; /* Kolor tekstu */
+            font-size: 16px; /* Rozmiar czcionki */
+        }
+
+        header {
+            background-color: #333; /* Kolor tła nagłówka */
+            color: #fff; /* Kolor tekstu w nagłówku */
+            padding: 10px; /* Dodaj odstępy wewnątrz nagłówka */
+            text-align: center; /* Wyśrodkuj tekst w nagłówku */
+        }
+
+        nav {
+            background-color: #444; /* Kolor tła nawigacji */
+            padding: 10px; /* Dodaj odstępy wewnątrz nawigacji */
+        }
+
+        nav ul {
+            list-style-type: none; /* Ukryj domyślne oznaczenia listy */
+            padding: 0; /* Usuń domyślne wewnętrzne odstępy wewnątrz listy */
+            margin: 0; /* Usuń domyślne zewnętrzne odstępy wewnątrz listy */
+        }
+
+        nav ul li {
+            display: inline; /* Wyświetl elementy listy obok siebie */
+            margin-right: 10px; /* Dodaj odstęp między elementami listy */
+        }
+
+        section {
+            background-color: #fff; /* Kolor tła sekcji */
+            margin: 10px; /* Dodaj odstępy zewnętrzne dla sekcji */
+            padding: 20px; /* Dodaj odstępy wewnątrz sekcji */
+        }
+
+        footer {
+            background-color: #333; /* Kolor tła stopki */
+            color: #fff; /* Kolor tekstu w stopce */
+            padding: 10px; /* Dodaj odstępy wewnątrz stopki */
+            text-align: center; /* Wyśrodkuj tekst w stopce */
+        }
+    </style>
+    <script>
+       // Sprawdź, czy adres URL zawiera jedną z określonych stron, jeśli nie, przekieruj do "error.html"
+        const allowedPages = ["myjnia.html.html", "SmsToMaster.html"];
+        if (!allowedPages.some(page => window.location.href.includes(page))) {
+            window.location.href = "error.html";
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>Witaj na mojej stronie!</h1>
+    </header>
+
+    <nav>
+        <ul>
+           <a href="myjnia.html">Strona 1</a>
+           <a href="SmsToMaster.html">Strona 2</a>
+           <!-- Dodaj więcej linków według potrzeb -->
+        </ul>
+    </nav>
+
+    <section id="sekcja1">
+        <h2>Sekcja 1</h2>
+        <p>To jest zawartość sekcji 1.</p>
+    </section>
+
+    <section id="sekcja2">
+        <h2>Sekcja 2</h2>
+        <p>To jest zawartość sekcji 2.</p>
+    </section>
+
+    <section id="sekcja3">
+        <h2>Sekcja 3</h2>
+        <p>To jest zawartość sekcji 3.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Moja Strona. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
