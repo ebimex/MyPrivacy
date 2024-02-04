@@ -56,7 +56,7 @@
     </style>
     <script>
        // Sprawdź, czy adres URL zawiera jedną z określonych stron, jeśli nie, przekieruj do "error.html"
-        const allowedPages = ["myjnia_3#N*.html.html", "smstomaster_4$3&r.html"];
+        const allowedPages = ["myjnia_3#N*.html", "smstomaster_4$3&r.html"];
         if (!allowedPages.some(page => window.location.href.includes(page))) {
             window.location.href = "error.html";
         }
